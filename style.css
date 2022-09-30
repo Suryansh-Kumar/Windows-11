@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background: url('bg.jpeg');
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+}
+.taskbar{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 110;
+    background-color: #f3f3f3;
+}
+.right{
+    justify-self: flex-end;
+    position: absolute;
+    right: 0;
+    margin: 6px 0;
+    height: 85%;
+}
+.startmenu{
+    position: absolute;
+    /* bottom: 50px; */
+    bottom: -655px;
+    width: 100%;
+    transition: all 0.3s ease-in;
+    text-align: center;
+}
+.startmenu img{
+    border-radius: 8px;
+}
+.searchbox{
+    position: absolute;
+    /* bottom: 50px; */
+    bottom: -655px;
+    width: 100%;
+    transition: all 0.3s ease-in;
+    text-align: center;
+}
+.searchbox img{
+    border-radius: 8px;
+}
+.fileExplorer{
+    position: absolute;
+    /* bottom: 50px; */
+    bottom: -655px;
+    width: 100%;
+    transition: all 0.3s ease-in;
+    text-align: center;
+}
+.fileExplorer img{
+    border-radius: 8px;
+}
+.google{
+    position: absolute;
+    /* bottom: 50px; */
+    bottom: -764px;
+    width: 100%;
+    transition: all 0.3s ease-in;
+    text-align: center;
+}
+.m-store{
+    position: absolute;
+    /* bottom: 50px; */
+    bottom: -764px;
+    width: 100%;
+    transition: all 0.3s ease-in;
+    text-align: center;
+}
+.recycle{
+    position: absolute;
+    /* bottom: 50px; */
+    bottom: -764px;
+    width: 100%;
+    transition: all 0.3s ease-in;
+    text-align: center;
+}
+.fileExplorer img{
+    border-radius: 8px;
+}
+.icons{
+    color: white;
+    width: 119px;
+    margin: 15px 0;
+}
+.search{
+    height: 34px;
+    margin: 5px 9px;
+}
+.explorer{
+    height: 34px;
+    margin: 5px 9px;
+}
+.store{
+    width: 64px;
+    height: 38px;
+    margin: 5px 9px;
+}
+.chrome{
+    cursor: pointer;
+    display: none;
+    height: 34px;
+    margin: 8px 9px;
+}
+
+.recycleIcon{
+    cursor: pointer;
+    display: none;
+    height: 34px;
+    margin: 5px 9px;
+}
